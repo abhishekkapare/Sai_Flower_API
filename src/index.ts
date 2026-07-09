@@ -4,8 +4,6 @@ dotenv.config();
 import app from "./app";
 import { logger } from "./lib/logger";
 
-console.log("PORT:", process.env.PORT);
-console.log("Cloudinary:", process.env.CLOUDINARY_CLOUD_NAME);
 
 const rawPort = process.env.PORT;
 
